@@ -18,15 +18,29 @@ User.find_each { |user| user_ids << user.id }
 
 ############################# Courses ##################################
 
+IMG_PATHS = {
+  img1: "db/seed_data/gem1.jpg",
+  img2: "db/seed_data/gem2.jpg",
+  img3: "db/seed_data/java1.jpg",
+  img4: "db/seed_data/java2.jpg",
+  img5: "db/seed_data/java3.jpg",
+  img6: "db/seed_data/rails1.jpg",
+  img7: "db/seed_data/rails2.jpg",
+  img8: "db/seed_data/rails3.jpg",
+}
+
 8.times do |n|
   title = "#{Faker::Hacker.ingverb} #{Faker::Hacker.noun}".upcase!
   description = "#{Faker::Hacker.say_something_smart}"
   cost = rand(0..50)
+  img_path = IMG_PATHS[IMG_PATHS.keys.sample]
   user_id = user_ids.sample
+
   Course.create!(
     title: title,
     description: description,
     cost: cost,
+    image: Rails.root.join(img_path).open,
     user_id: user_id
   )
 end
