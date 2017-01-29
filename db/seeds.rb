@@ -1,3 +1,7 @@
+# *Important* seeding will add images to whatever cloud storage you are
+#   using.
+#  It is recommended to delete these images before a re-seed.
+
 # Clear DB entries
 User.delete_all
 Course.delete_all
