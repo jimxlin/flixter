@@ -1,3 +1,5 @@
+###To Do: add videos to lessons
+
 # *Important* seeding will add images to whatever cloud storage you are
 #   using.
 #  It is recommended to delete these images before a re-seed.
