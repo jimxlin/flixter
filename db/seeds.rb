@@ -1,5 +1,3 @@
-###To Do: add videos to lessons
-
 # *Important* seeding will add images to whatever cloud storage you are
 #   using.
 #  It is recommended to delete these images before a re-seed.
@@ -57,7 +55,7 @@ Course.find_each { |course| course_ids << course.id }
 ############################# Sections #################################
 
 Course.all.each do |course|
-  (1..rand(2..7)).each do |n|
+  (1..rand(2..4)).each do |n|
     title = "Section #{n}"
     course_id = course.id
     Section.create!(
@@ -77,6 +75,7 @@ Section.all.each do |section|
     Lesson.create!(
       title: title,
       subtitle: subtitle,
+      video: Rails.root.join("db/seed_data/video.mp4").open,
       section_id: section_id
     )
   end
