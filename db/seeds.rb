@@ -7,6 +7,7 @@ User.delete_all
 Course.delete_all
 Section.delete_all
 Lesson.delete_all
+Enrollment.delete_all
 
 ############################# Users ####################################
 
