@@ -37,7 +37,7 @@ IMG_PATHS = {
 8.times do |n|
   title = "#{Faker::Hacker.ingverb} #{Faker::Hacker.noun}".upcase!
   description = "#{Faker::Hacker.say_something_smart}"
-  cost = rand(0..50)
+  cost = n < 4 ? rand(1..20) : 0
   img_path = IMG_PATHS[IMG_PATHS.keys.sample]
   user_id = user_ids.sample
 
