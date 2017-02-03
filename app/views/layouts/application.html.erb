@@ -10,7 +10,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link href="http://vjs.zencdn.net/5.12.6/video-js.css" rel="stylesheet">
-
   </head>
 
   <body>
@@ -29,7 +28,7 @@
           <ul class="navbar-nav">
             <% if user_signed_in? %>
               <li class="nav-item">
-                <%= link_to 'My Profile', '#', class: 'nav-link' %>
+                <%= link_to 'My Dashboard', dashboard_path, class: 'nav-link' %>
               </li>
               <li class="nav-item">
                 <%= link_to 'Log out', destroy_user_session_path, class: 'nav-link', method: :delete %>
