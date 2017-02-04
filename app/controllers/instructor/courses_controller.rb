@@ -16,6 +16,9 @@ class Instructor::CoursesController < ApplicationController
   end
 
   def show
+    # for modal forms
+    @section = Section.new
+    @lesson = Lesson.new
   end
 
   private
