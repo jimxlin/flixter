@@ -1,0 +1,99 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddImageToCourses	db/migrate/20170128050723_add_image_to_courses.rb	/^class AddImageToCourses < ActiveRecord::Migration[5.0]$/;"	c
+AddRowOrderToLessons	db/migrate/20170131224919_add_row_order_to_lessons.rb	/^class AddRowOrderToLessons < ActiveRecord::Migration[5.0]$/;"	c
+AddRowOrderToSections	db/migrate/20170201040508_add_row_order_to_sections.rb	/^class AddRowOrderToSections < ActiveRecord::Migration[5.0]$/;"	c
+AddVideoToLessons	db/migrate/20170129044953_add_video_to_lessons.rb	/^class AddVideoToLessons < ActiveRecord::Migration[5.0]$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Flixter
+ApplicationCable	app/channels/application_cable/channel.rb	/^module ApplicationCable$/;"	m
+ApplicationCable	app/channels/application_cable/connection.rb	/^module ApplicationCable$/;"	m
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+ApplicationJob	app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c
+ApplicationMailer	app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c
+ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c
+Channel	app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	class:ApplicationCable
+Connection	app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	class:ApplicationCable
+Course	app/models/course.rb	/^class Course < ApplicationRecord$/;"	c
+CoursesController	app/controllers/courses_controller.rb	/^class CoursesController < ApplicationController$/;"	c
+CoursesHelper	app/helpers/courses_helper.rb	/^module CoursesHelper$/;"	m
+CreateCourses	db/migrate/20170122212320_create_courses.rb	/^class CreateCourses < ActiveRecord::Migration[5.0]$/;"	c
+CreateEnrollments	db/migrate/20170130054919_create_enrollments.rb	/^class CreateEnrollments < ActiveRecord::Migration[5.0]$/;"	c
+CreateLessons	db/migrate/20170124074026_create_lessons.rb	/^class CreateLessons < ActiveRecord::Migration[5.0]$/;"	c
+CreateSections	db/migrate/20170124051640_create_sections.rb	/^class CreateSections < ActiveRecord::Migration[5.0]$/;"	c
+DashboardsController	app/controllers/dashboards_controller.rb	/^class DashboardsController < ApplicationController$/;"	c
+DashboardsHelper	app/helpers/dashboards_helper.rb	/^module DashboardsHelper$/;"	m
+DeviseCreateUsers	db/migrate/20170121080751_devise_create_users.rb	/^class DeviseCreateUsers < ActiveRecord::Migration[5.0]$/;"	c
+Enrollment	app/models/enrollment.rb	/^class Enrollment < ApplicationRecord$/;"	c
+EnrollmentsController	app/controllers/enrollments_controller.rb	/^class EnrollmentsController < ApplicationController$/;"	c
+EnrollmentsHelper	app/helpers/enrollments_helper.rb	/^module EnrollmentsHelper$/;"	m
+Flixter	config/application.rb	/^module Flixter$/;"	m
+ImageUploader	app/uploaders/image_uploader.rb	/^class ImageUploader < CarrierWave::Uploader::Base$/;"	c
+Instructor	app/controllers/instructor/courses_controller.rb	/^class Instructor::CoursesController < ApplicationController$/;"	c
+Instructor	app/controllers/instructor/lessons_controller.rb	/^class Instructor::LessonsController < ApplicationController$/;"	c
+Instructor	app/controllers/instructor/sections_controller.rb	/^class Instructor::SectionsController < ApplicationController$/;"	c
+Instructor	app/helpers/instructor/courses_helper.rb	/^module Instructor::CoursesHelper$/;"	m
+Instructor	app/helpers/instructor/lessons_helper.rb	/^module Instructor::LessonsHelper$/;"	m
+Instructor	app/helpers/instructor/sections_helper.rb	/^module Instructor::SectionsHelper$/;"	m
+Lesson	app/models/lesson.rb	/^class Lesson < ApplicationRecord$/;"	c
+LessonsController	app/controllers/lessons_controller.rb	/^class LessonsController < ApplicationController$/;"	c
+LessonsHelper	app/helpers/lessons_helper.rb	/^module LessonsHelper$/;"	m
+Section	app/models/section.rb	/^class Section < ApplicationRecord$/;"	c
+StaticPagesController	app/controllers/static_pages_controller.rb	/^class StaticPagesController < ApplicationController$/;"	c
+StaticPagesHelper	app/helpers/static_pages_helper.rb	/^module StaticPagesHelper$/;"	m
+User	app/models/user.rb	/^class User < ApplicationRecord$/;"	c
+VideoUploader	app/uploaders/video_uploader.rb	/^class VideoUploader < CarrierWave::Uploader::Base$/;"	c
+careers	app/controllers/static_pages_controller.rb	/^  def careers$/;"	f	class:StaticPagesController
+change	db/migrate/20170121080751_devise_create_users.rb	/^  def change$/;"	f	class:DeviseCreateUsers
+change	db/migrate/20170122212320_create_courses.rb	/^  def change$/;"	f	class:CreateCourses
+change	db/migrate/20170124051640_create_sections.rb	/^  def change$/;"	f	class:CreateSections
+change	db/migrate/20170124074026_create_lessons.rb	/^  def change$/;"	f	class:CreateLessons
+change	db/migrate/20170128050723_add_image_to_courses.rb	/^  def change$/;"	f	class:AddImageToCourses
+change	db/migrate/20170129044953_add_video_to_lessons.rb	/^  def change$/;"	f	class:AddVideoToLessons
+change	db/migrate/20170130054919_create_enrollments.rb	/^  def change$/;"	f	class:CreateEnrollments
+change	db/migrate/20170131224919_add_row_order_to_lessons.rb	/^  def change$/;"	f	class:AddRowOrderToLessons
+change	db/migrate/20170201040508_add_row_order_to_sections.rb	/^  def change$/;"	f	class:AddRowOrderToSections
+course_params	app/controllers/instructor/courses_controller.rb	/^  def course_params$/;"	f	class:Instructor
+create	app/controllers/enrollments_controller.rb	/^  def create$/;"	f	class:EnrollmentsController
+create	app/controllers/instructor/courses_controller.rb	/^  def create$/;"	f	class:Instructor
+create	app/controllers/instructor/lessons_controller.rb	/^  def create$/;"	f	class:Instructor
+create	app/controllers/instructor/sections_controller.rb	/^  def create$/;"	f	class:Instructor
+current_course	app/controllers/enrollments_controller.rb	/^  def current_course$/;"	f	class:EnrollmentsController
+current_course	app/controllers/instructor/courses_controller.rb	/^  def current_course$/;"	f	class:Instructor
+current_course	app/controllers/instructor/sections_controller.rb	/^  def current_course$/;"	f	class:Instructor
+current_lesson	app/controllers/instructor/lessons_controller.rb	/^  def current_lesson$/;"	f	class:Instructor
+current_lesson	app/controllers/lessons_controller.rb	/^  def current_lesson$/;"	f	class:LessonsController
+current_section	app/controllers/instructor/lessons_controller.rb	/^  def current_section$/;"	f	class:Instructor
+current_section	app/controllers/instructor/sections_controller.rb	/^  def current_section$/;"	f	class:Instructor
+enrolled_in?	app/models/user.rb	/^  def enrolled_in?(course)$/;"	f	class:User
+free?	app/models/course.rb	/^  def free?$/;"	f	class:Course
+index	app/controllers/courses_controller.rb	/^  def index$/;"	f	class:CoursesController
+index	app/controllers/static_pages_controller.rb	/^  def index$/;"	f	class:StaticPagesController
+lesson_params	app/controllers/instructor/lessons_controller.rb	/^  def lesson_params$/;"	f	class:Instructor
+new	app/controllers/instructor/courses_controller.rb	/^  def new$/;"	f	class:Instructor
+next_lesson	app/models/lesson.rb	/^  def next_lesson$/;"	f	class:Lesson
+next_section	app/models/section.rb	/^  def next_section$/;"	f	class:Section
+premium?	app/models/course.rb	/^  def premium?$/;"	f	class:Course
+privacy	app/controllers/static_pages_controller.rb	/^  def privacy$/;"	f	class:StaticPagesController
+require_authorized_for_current_course	app/controllers/instructor/courses_controller.rb	/^  def require_authorized_for_current_course$/;"	f	class:Instructor
+require_authorized_for_current_course	app/controllers/instructor/sections_controller.rb	/^  def require_authorized_for_current_course$/;"	f	class:Instructor
+require_authorized_for_current_lesson	app/controllers/instructor/lessons_controller.rb	/^  def require_authorized_for_current_lesson$/;"	f	class:Instructor
+require_authorized_for_current_section	app/controllers/instructor/lessons_controller.rb	/^  def require_authorized_for_current_section$/;"	f	class:Instructor
+require_authorized_for_current_section	app/controllers/instructor/sections_controller.rb	/^  def require_authorized_for_current_section$/;"	f	class:Instructor
+require_enrolled_in_current_course	app/controllers/lessons_controller.rb	/^  def require_enrolled_in_current_course$/;"	f	class:LessonsController
+section_params	app/controllers/instructor/sections_controller.rb	/^  def section_params$/;"	f	class:Instructor
+show	app/controllers/courses_controller.rb	/^  def show$/;"	f	class:CoursesController
+show	app/controllers/dashboards_controller.rb	/^  def show$/;"	f	class:DashboardsController
+show	app/controllers/instructor/courses_controller.rb	/^  def show$/;"	f	class:Instructor
+show	app/controllers/lessons_controller.rb	/^  def show$/;"	f	class:LessonsController
+store_dir	app/uploaders/image_uploader.rb	/^  def store_dir$/;"	f	class:ImageUploader
+store_dir	app/uploaders/video_uploader.rb	/^  def store_dir$/;"	f	class:VideoUploader
+system!	bin/setup	/^def system!(*args)$/;"	f
+system!	bin/update	/^def system!(*args)$/;"	f
+team	app/controllers/static_pages_controller.rb	/^  def team$/;"	f	class:StaticPagesController
+update	app/controllers/instructor/lessons_controller.rb	/^  def update$/;"	f	class:Instructor
+update	app/controllers/instructor/sections_controller.rb	/^  def update$/;"	f	class:Instructor
